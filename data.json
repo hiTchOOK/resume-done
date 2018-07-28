@@ -1,0 +1,49 @@
+{
+ "details":{
+       "name": "soonu",
+       "age" : "23",
+       "phone":"9372562771",
+        "email":"kanchisushma142@gmail.com",
+        "study":"btech",
+        "image":"female.jpg"
+ },
+ "education" : [
+ 	{
+       "course":"B.Tech",
+       "college":"MIC COLLEGE",
+       "branch":"CSE",
+       "percentage":"86%"
+},
+{
+       "course":"Intemediate",
+       "college":"Nagarjuna junior college",
+       "branch":"MPC",
+       "percentage":"97%"
+
+},
+{
+
+       "course":"10th",
+       "college":"Loyola high school ",
+       "branch":"ssc",
+       "percentage":"97%"
+}
+],
+"skills":[
+{
+
+  "title":"programming  Languages ",
+   "output": [
+         "C","C++","python","Java"
+       ]  
+     },
+{
+      "title":"operating systems",
+      "output":[
+          "Linux","Mac","Ubuntu","Windows"
+
+        ]
+
+       }
+   ]
+}
