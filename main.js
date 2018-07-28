@@ -13,6 +13,7 @@ loadjson("data.json",function(text) {
 	let data=JSON.parse(text);
 	console.log(data);
 	first(data.details);
+	carr(data.carrier);
 	edu(data.education);
 	skill(data.skills);
 })
@@ -83,3 +84,14 @@ for ( i = 0;i <skills.length; i++){
      }
       head.appendChild(t);
   }
+function carr(carrier){
+var a=document.createElement("div");
+a.classList.add("carrier");
+right.appendChild(a);
+var e=document.createElement("h2");
+e.textContent="Carrier Objective";
+a.appendChild(e);
+var para=document.createElement("p");
+para.textContent=carrier.co;
+e.appendChild(para);
+}
